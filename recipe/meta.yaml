@@ -1,5 +1,5 @@
 {% set name = "pystow" %}
-{% set version = "0.5.4" %}
+{% set version = "0.5.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pystow-{{ version }}.tar.gz
-  sha256: 2692180cb405bd77259bee6c7f4db545d10e81939980064730609f21750567ff
+  sha256: cc2bde486de03f1de1d7e8f6837e121277a461e47950539cb4d1ef51690eade7
 
 build:
   skip: true  # [py<37]
